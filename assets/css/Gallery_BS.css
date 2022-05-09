@@ -36,17 +36,22 @@
 
 .gallery__item:nth-child(5){
     grid-column-start: span 1;
-    grid-row-start: span 4;
+    grid-row-start: span 6;
 }
 
 .gallery__item:nth-child(6){
-    grid-column-start: span 1;
-    grid-row-start: span 4;
+    grid-column-start: span 2;
+    grid-row-start: span 6;
 }
 
 .gallery__item:nth-child(7){
+    grid-column-start: span 2;
+    grid-row-start: span 6;
+}
+
+.gallery__item:nth-child(8){
     grid-column-start: span 1;
-    grid-row-start: span 4;
+    grid-row-start: span 6;
 }
 
 @media screen and (max-width: 736px) {
@@ -75,6 +80,11 @@
     }
     
     .gallery__item:nth-child(7){
+        grid-column-start: span 2;
+        grid-row-start: span 3;
+    }
+
+    .gallery__item:nth-child(8){
         grid-column-start: span 2;
         grid-row-start: span 3;
     }
