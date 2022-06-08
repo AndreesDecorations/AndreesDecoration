@@ -44,12 +44,12 @@
     grid-row-start: span 3;
 }
 
-/*
+
 .gallery__item:nth-child(7){
     grid-column-start: span 1;
-    grid-row-start: span 4;
+    grid-row-start: span 7;
 }
-
+/*
 .gallery__item:nth-child(8){
     grid-column-start: span 1;
     grid-row-start: span 4;
