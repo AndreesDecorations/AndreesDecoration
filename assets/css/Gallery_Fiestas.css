@@ -60,7 +60,7 @@
     grid-column-start: span 1;
     grid-row-start: span 4;
 }
-/*
+
 .gallery__item:nth-child(10){
     grid-column-start: span 1;
     grid-row-start: span 4;
@@ -90,7 +90,11 @@
     grid-column-start: span 1;
     grid-row-start: span 3;
 }
-*/
+
+.gallery__item:nth-child(16){
+    grid-column-start: span 1;
+    grid-row-start: span 3;
+}
 
 @media screen and (max-width: 736px) {
     .gallery-container{
