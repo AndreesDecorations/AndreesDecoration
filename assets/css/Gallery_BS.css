@@ -54,6 +54,36 @@
     grid-row-start: span 6;
 }
 
+.gallery__item:nth-child(9){
+    grid-column-start: span 1;
+    grid-row-start: span 3;
+}
+
+.gallery__item:nth-child(10){
+    grid-column-start: span 1;
+    grid-row-start: span 3;
+}
+
+.gallery__item:nth-child(11){
+    grid-column-start: span 1;
+    grid-row-start: span 4;
+}
+
+.gallery__item:nth-child(12){
+    grid-column-start: span 1;
+    grid-row-start: span 5;
+}
+
+.gallery__item:nth-child(13){
+    grid-column-start: span 1;
+    grid-row-start: span 5;
+}
+
+.gallery__item:nth-child(14){
+    grid-column-start: span 1;
+    grid-row-start: span 4;
+}
+
 @media screen and (max-width: 736px) {
     .gallery-container{
         grid-template-columns: repeat(2,1fr);
