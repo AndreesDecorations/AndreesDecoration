@@ -96,6 +96,11 @@
     grid-row-start: span 3;
 }
 
+.gallery__item:nth-child(17){
+    grid-column-start: span 1;
+    grid-row-start: span 3;
+}
+
 @media screen and (max-width: 736px) {
     .gallery-container{
         grid-template-columns: repeat(1,1fr);
@@ -188,6 +193,11 @@
     }
 
     .gallery__item:nth-child(15){
+        grid-column-start: span 1;
+        grid-row-start: span 3;
+    }
+
+    .gallery__item:nth-child(16){
         grid-column-start: span 1;
         grid-row-start: span 3;
     }
